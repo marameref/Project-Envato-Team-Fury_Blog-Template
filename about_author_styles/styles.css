@@ -1,0 +1,461 @@
+*{
+	box-sizing: border-box;/*To ensure contents fits into the page perfectly*/
+	margin: 0;
+	padding: 0;
+}
+
+/*General styling of the html body */
+body{	
+	overflow: auto;
+	font-family: Proxima Nova;	
+}
+
+#header .line{
+	width: 100%;
+	margin-bottom: 20px;
+	color:#F1868A;
+	border-bottom: 4px solid #F1868A;
+}
+
+#header .container{
+	margin: 0 4%;
+	margin-bottom: 10px;
+}
+
+#header .container .section-head{
+	display: inline-block;
+	margin-right: 60px;
+}
+
+#header .container .nav{
+	display: inline-block;
+	position: relative;
+	top:-5px;
+}
+
+#header .container .nav li{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#header .container .nav li a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 0.8em;
+	color: #333;
+	margin-right: 20px;
+}
+
+#header .container .nav li a:hover,
+#header .container .nav li a:focus{
+	color: #000;
+}
+
+#header .container .nav .home a{
+	color: #F1868A;
+}
+
+#header .container .nav .home a:hover,
+#header .container .nav .home a:focus{
+	color:#e73238;
+}
+
+#header .container .section-right{
+	display: inline-block;
+	float: right;
+}
+
+#header .container .section-right button{
+	padding: 7px 10px;
+	background-color: #F1868A;
+	color: #fff;
+	outline: none;
+	font-size: 0.8em;
+	border: 1px solid #F1868A;
+}
+
+#header .container .hamburger{
+	display: none;
+}
+
+#dropdownNav{
+	display: none;
+}
+
+#about .container .section-head{
+	background-image: url(../about_author_images/backgd.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 300px; 
+	display: block;
+}
+
+#about .container .section-head h3{
+	background-image: url(backgd.png);
+	text-align: center;
+	color: #fff;
+	font-size: 3.3em;
+	padding-top: 130px;
+}
+
+#about .container .section-bottom{
+	margin:20px 6%;
+}
+
+#about .container .section-bottom .section-info p{
+	margin-bottom: 20px;
+}
+
+#about .container .section-bottom .img-section{
+	margin:0 35%;
+	margin-bottom: 20px;
+}
+
+#gallery .container{
+	width: 100%;
+}
+
+#gallery .container img{
+	width:25%;
+	display: inline-block;
+	margin: 0 -3px;
+}
+
+#gallery .button{
+	position: relative;
+	left:0;
+	top:-200px;
+	padding-left:40%;
+}
+
+#gallery .button .sumBtn{
+	padding: 7px 10px;
+	background-color: #F1868A;
+	color: #fff;
+	outline: none;
+	font-size: 0.8em;
+	border: 1px solid #F1868A;
+}
+
+#asides .container{
+	margin: 50px 10%;
+}
+
+#asides .container .section-left{
+	display: inline-block;
+	width: 25%;
+}
+
+#asides .container .section-left  h3{
+	color:#333;
+	padding-bottom: 5px;
+	width: 200px;
+	border-bottom: 1px solid #F1868A;
+	margin-bottom: 20px;
+}
+
+#asides .container .below p{
+	margin-top: 10px;
+	line-height: 22px;
+	width: 80%;
+}
+
+#asides .container .section-center{
+	display: inline-block;
+	width: 25%;	
+	margin-left: 10%;
+}
+
+#asides .container .section-center .section-title h3{
+	color:#333;
+	padding-bottom: 5px;
+	width: 200px;
+	border-bottom: 1px solid #F1868A;
+	margin-bottom: 20px;
+}
+
+#asides .container .section-center .section-info{
+	margin-bottom:25px;
+}
+
+#asides .container .section-center .section-info img{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+}
+
+#asides .container .section-center .section-info .inner{
+	display: inline-block;
+	position: relative;
+	top: -10px;
+}
+
+#asides .container .section-center .section-info .inner h3{
+	font-size: 0.9em;
+	margin-bottom: 5px;
+}
+
+#asides .container .section-center .section-info .inner p{
+	display: inline-block;
+	font-size: 0.6em;
+	color: #F1868A;
+	margin-right: 20px;
+}
+
+#asides .container .section-center .section-info .inner h4{
+	display: inline-block;
+	font-size: 0.6em;
+	font-weight: 400;
+}
+
+
+#asides .container .section-right{
+	display: inline-block;
+	width: 25%;
+	margin-left: 10%;
+}
+
+#asides .container .section-right .section-title h3{
+	color:#333;
+	padding-bottom: 5px;
+	width: 200px;
+	border-bottom: 1px solid #F1868A;
+	margin-bottom: 20px;
+}
+
+#asides .container .section-right .section-info{
+	margin-bottom:25px;
+}
+
+#asides .container .section-right .section-info img{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+}
+
+#asides .container .section-right .section-info .inner{
+	display: inline-block;
+	position: relative;
+	top: -10px;
+}
+
+#asides .container .section-right .section-info .inner h3{
+	font-size: 0.9em;
+	margin-bottom: 5px;
+}
+
+#asides .container .section-right .section-info .inner p{
+	display: inline-block;
+	font-size: 0.6em;
+	color: #F1868A;
+	margin-right: 20px;
+}
+
+#asides .container .section-right .section-info .inner h4{
+	display: inline-block;
+	font-size: 0.6em;
+	font-weight: 400;
+}
+
+footer .container{
+	margin: 50px 0;
+	margin-bottom:0;
+	width: 100%;
+	border-top: 1px solid #F1868A;
+	padding: 10px 0;
+}
+
+footer .container .section{
+	margin: 0 6%;
+}
+
+footer .container .section p{
+	font-size: 0.9em;
+	display: inline-block;
+}
+
+footer .container .section .logo-section{
+	display: inline-block;
+	float:right;
+}
+
+footer .container .section .logo-section span{
+	margin-left: 5px;
+	font-size: 0.9em;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1191px){
+	#header .container{
+		margin: 0 2%;
+	}
+	
+	#header .container .section-head{
+		margin-right: 10px;
+	}
+	
+	#header .container .nav li{
+		margin-left: 5px;
+	}
+	
+	#header .container .nav li a{
+		margin-right: 5px;
+	}
+	
+	#header .container .section-right{
+		position:relative;
+		top:-5px;
+	}
+	
+	
+	#asides .container{
+		margin: 50px 5%;
+	}
+
+	#asides .container .below img{
+		width: 80%;
+	}
+	
+	#asides .container .below p{
+		width:100%;
+	}
+	
+	#asides .container .section-center{
+		width: 32%;
+		margin-left: 1%;
+	}
+	
+	#asides .container .section-center .section-info .inner h3{
+		font-size: 0.7em;
+		margin-bottom: 5px;
+	}
+	
+	#asides .container .section-center .section-info .inner p{
+		margin-right:10px;
+	}
+	
+	#asides .container .section-right{
+		width: 32%;
+		margin-left: 1%;
+	}
+	
+	#asides .container .section-right .section-info .inner h3{
+		font-size: 0.7em;
+		margin-bottom: 5px;
+	}
+	#asides .container .section-right .section-info .inner p{
+		margin-right:10px;
+	}	
+}
+
+@media only screen and (min-width: 200px) and (max-width: 899px){
+	#header .container .nav{
+		display: none;
+	}
+	#header .container .section-right{
+		display:none;
+	}
+	
+	#header .container .hamburger{
+		display: inline-block;
+		float: right;
+	}
+	
+	#about .container .section-bottom .img-section{
+		margin:0 15%;
+		margin-bottom: 20px;
+	}
+	#about .container .section-bottom .img-section img{
+		width: 70%;
+	}
+	#gallery .container img{
+		width:50%;
+		margin: -2px -3px;
+	}
+	#gallery .button{
+		position:relative;
+		left: 10%;
+		top:0;
+		margin-top: 20px;
+		padding-left: 0;
+		width: 50%;
+	}
+	#asides .container .section-left{
+		display: block;
+		width: 80%;
+		margin: 0 10%;
+		margin-bottom: 30px;
+	}
+	#asides .container .section-center{
+		display:block;
+		width: 80%;
+		margin: 0 10%;
+		margin-bottom: 50px;
+	}
+	#asides .container .section-right{
+		display: block;
+		width: 80%;
+		margin: 0 10%;
+	}
+	footer .container .section{
+		margin: 0;
+	}
+	footer .container .section p{
+		display: block;
+		text-align: center;
+		margin-bottom: 10px;
+		
+	}
+	footer .container .section .logo-section{
+		display: block;
+		float:none;
+		margin: 0 auto;
+		width: 60%;
+	}
+	
+	#dropdownNav{
+		display:none;
+	}
+	
+	#dropdownNav .navbar {
+		height: 250px;
+		width: 100%;
+		position: absolute;
+		z-index: 1;
+		top: 60px;
+		left: 0;
+		background-color: #fff;
+		overflow-x: hidden;
+		transition: 0.5s;
+	}
+
+	#dropdownNav .navbar li a {
+		padding: 8px;
+		text-decoration: none;
+		font-size: 1.2em;
+		color: #000;
+		display: block;
+		transition: 0.3s;
+		text-align: center;
+	}
+
+	#dropdownNav .navbar a:hover {
+		color: #F1868A;
+	}
+
+	#dropdownNav .navbar .closebtn {
+		position: absolute;
+		top: 0px;
+		right: 25px;
+		font-size: 36px;
+		color: #F1868A;
+		text-decoration: none;
+	}
+
+	#about {
+		transition: margin-top .5s;
+	}
+	
+	#dropdownNav{
+		transition: display .5s;
+	}
+}
