@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    --main-color: #F1868A;
+}
+.contact-us-bg {
+    background-color: var(--main-color);
+}
+.contact-us-color {
+    color: var(--main-color);
+}
+
+.contact-us-nav {
+    height: 89px;
+}
+.contact-us-nav ul li a {
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+.contact-us-search {
+    color: black;
+    font-size: 17.49px !important;
+}
+.contact-us-nav .active {
+    color: var(--main-color);
+}
+.contact-us-brand {
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    margin-right: 0;
+    color: var(--main-color) !important;
+}
+
+.contact-us-hero-img {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 367px;
+    position: relative;
+}
+.contact-us-hero-img h1{
+    color: white;
+    font-style: normal;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 44px;
+    text-align: center;
+    margin: auto;
+    padding-top: 150px;
+    position: relative;
+}
+.contact-us-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.contact-us-form {
+    padding-top: 78px;
+}
+.contact-us-form p {
+    font-style: normal;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 34px;
+}
+.contact-us-form p span {
+    color: var(--main-color);
+}
+.contact-us-form button {
+    background-color: var(--main-color);
+    outline-color: var(--main-color);
+    border-color: var(--main-color);
+    height: 60px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+.contact-us-form input {
+    height: 65px;
+}
+.contact-us-form input, 
+.contact-us-form textarea {
+    outline: none;
+    padding: 20px;
+}
+.contact-us-form input:focus,
+.contact-us-form textarea:focus {
+    border-color: var(--main-color);
+    outline-color: var(--main-color);
+}
+.contact-us-socials {
+    margin-top: 142px;
+    margin-bottom: 95px;
+    max-width: 765px;
+}
+.contact-us-box {
+    position: relative;
+    margin-bottom: 60px;
+}
+.contact-us-box-left, .contact-us-box-right {
+    height: 43px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 30px;
+}
+.contact-us-box-left {
+    padding: 6px;
+    background-color: var(--main-color);
+    width: 52px;
+    color: white;
+}
+.contact-us-box-right {
+    padding: 6px;
+    border: 1px solid var(--main-color);
+    margin: auto 0;
+    font-weight: normal;
+    font-style: normal;
+    width: 289px;
+}
+.contact-us-footer-heading {
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: bold;
+    margin-bottom: 37px;
+    position: relative;
+}
+.contact-us-footer-heading::after {
+    position: absolute;
+    content: "";
+    width: 212px;
+    height: 1px;
+    background-color: var(--main-color);
+    left: 0;
+    bottom: -10px;
+}
+.contact-us-footer-img {
+    width: 212px;
+    height: 157px;
+    margin-bottom: 29px;
+}
+.contact-us-footer-text {
+    width: 260px;
+    font-size: 22px;
+    line-height: 33px;
+}
+.contact-us-footer-two-body{
+    margin-top: 74px;
+}
+.contact-us-footer-two-img {
+    width: 72.29px;
+    height: 63.66px;
+}
+.contact-us-footer-two-heading {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 17px;
+}
+.contact-us-footer-two-category {
+    font-size: 10px;
+    color: var(--main-color);
+    text-transform: uppercase;
+    margin-right: 22px;
+}
+.contact-us-footer-two-comment {
+    font-size: 10px;
+}
+.contact-us-footer {
+    height: 51px;
+    border-top: 2px solid var(--main-color);
+    max-width: 1190px;
+    margin-top: 33px;
+}
+.contact-us-footer-credit {
+    font-size: 14px;
+    line-height: 21px;
+}
+.contact-us-footer-credit-social {
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+.contact-us-footer-credit-social ul li{
+    margin-left: 52px;
+}
+.contact-us-footer-credit-social ul li a{
+    color: black;
+}
+.contact-us-footer-credit-social ul li span {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding: 1px 2px;
+    margin-right: 9px;
+    position: relative;
+}
